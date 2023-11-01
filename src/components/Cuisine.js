@@ -16,7 +16,7 @@ const Cuisine = () => {
 
     const GetCuisine = async(name)=>{
         try{
-            const data = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=568227dc55604dd8aa984e51c883b7ea&cuisine=${name}`);
+            const data = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&cuisine=${name}`);
             const recipes =await data.json();
             setCuisine(recipes.results);
         }catch(err){
