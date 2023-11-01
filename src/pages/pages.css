@@ -1,0 +1,77 @@
+.detailwrapper{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.detailh2{
+    margin-bottom: 2rem;
+}
+
+.detail-image{
+  width:80%;
+  padding: 1rem;
+}
+.detail img{
+    max-width:inherit;
+    min-width:none;
+    
+}
+.detailul{
+    margin-top: 2rem;
+}
+
+.detailli{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+.info{
+    margin-left: 2rem;
+}
+.active {
+    background: linear-gradient(35deg, #494949, #313131);
+    color: white;
+    padding: 1rem 2rem;
+    margin-right: 2rem;
+font-weight: 600;
+border: 2px solid black;
+  }
+
+  /* Searched */
+
+  .grid{
+    display: grid;
+grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
+grid-gap: 3rem;
+  }
+
+  .card{
+    min-height: 15rem;
+border-radius: 2rem;
+overflow: hidden;
+  }
+
+  .card img{
+    border-radius: 2rem;
+    width: 100%;
+    
+    }
+
+    .card a{
+        color: white;
+        text-decoration: none;
+        }
+
+    .card h4{
+        text-align: center;
+        padding: 1rem;
+        }   
+
+ .button{
+    padding: 1rem 2rem;
+color: #313131;
+background: white;
+border: 2px solid black;
+margin-right: 2rem;
+font-weight: 600;
+ }       

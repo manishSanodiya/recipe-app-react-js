@@ -1,0 +1,108 @@
+.List{
+display: flex;
+justify-content: center;
+
+
+}
+
+h2{
+    margin: 10%;
+    color:rgb(109, 81, 81);
+    font-weight: 700;
+}
+.Slinks{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+margin-right: 2%;
+text-decoration: none;
+background: linear-gradient(35deg, #494949, #313131);
+width: 4rem;
+height: 4rem;
+cursor: pointer;
+transform: scale(0.8)
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    color: rgb(109, 81, 81);
+    font-size: 1rem;
+    font-weight: 800;
+
+}
+
+svg {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.active a{
+    background: linear-gradient(to right, #f27121, #e94057);
+  
+}
+h4 {
+    color: white;
+}
+svg {
+    color: white;
+}
+
+
+
+.Grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    grid-gap: 3rem;
+}
+
+
+.Card{
+    min-height: 15rem;
+border-radius: 2rem;
+overflow: hidden;
+}
+
+.cardimage{
+        border-radius: 2rem;
+        width: 100%;
+}
+.cardh4{
+    text-align: center;
+    padding: 1rem;
+}
+
+.form{
+    margin: 0% 10%;
+
+    position: relative;
+width: 80%;
+}
+
+.forminput{
+    border: none;
+    background: linear-gradient(35deg, #494949, #313131);
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 1rem; 
+    color: white;
+    padding: 1rem 3rem; 
+    outline: none;
+    width: 100%;
+}
+
+.formsvg{
+    position: absolute;
+top: 50%;
+left: 0%;
+transform: translate(100%,-50%);
+color: white;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
